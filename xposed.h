@@ -3,6 +3,8 @@
 
 #include "xposed_shared.h"
 
+#define SYSTEMLESS_PATH "/magisk/xposed"
+
 #define XPOSED_PROP_FILE "/system/xposed.prop"
 
 #if defined(__LP64__)
